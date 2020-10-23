@@ -1,0 +1,360 @@
+<app-navbar></app-navbar>
+
+<!-- <div class=" carousel">
+  <ngb-carousel *ngIf="images" class="slider-img">
+      <ng-template ngbSlide>
+        <img [src]="images[0]" alt="Product Management">
+        <div class="carousel-caption">
+          <h3> Product Management </h3>
+          
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <img [src]="images[1]" alt="Expert Team">
+        <div class="carousel-caption">
+          <h3>Expert Team</h3>
+         
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <img [src]="images[2]" alt="Responsive Web Design">
+        <div class="carousel-caption">
+          <h3>Responsive Web Design</h3>
+         
+        </div>
+      </ng-template>
+    </ngb-carousel>
+  </div> -->
+  
+<section id="about-us" style="padding-top:5%; padding-bottom: 3%; ">
+  <div class="container section_title7">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="section_title">
+          <h2>Our collections</h2>
+          <div class="divider"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 col-sm-6">
+      <div class="product-grid">
+        <div class="product-image">
+          <a href="#">
+            <img class="pic-1" [src]="collection1" />
+            <img class="pic-2" [src]="collection1" />
+          </a>
+          <ul class="social">
+            <li>
+              <a href="#"><i class="fa fa-heart"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-shopping-cart"></i></a>
+            </li>
+          </ul>
+          <span class="product-new-label">New</span>
+        </div>
+        <div class="product-content">
+          <h3 class="title"><a href="#">Earring</a></h3>
+          <div class="price fa fa-rupee">
+            12500
+            <!-- <span class="fa fa-rupee">&nbsp;75.00</span> -->
+          </div>
+          <ul class="rating">
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star disable"></li>
+            <li class="fa fa-star disable"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <div class="product-grid">
+        <div class="product-image">
+          <a href="#">
+            <img class="pic-1" [src]="collection2" />
+            <img class="pic-2" [src]="collection2" />
+          </a>
+          <ul class="social">
+            <li>
+              <a href="#"><i class="fa fa-heart"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-shopping-cart"></i></a>
+            </li>
+          </ul>
+          <span class="product-new-label">New</span>
+        </div>
+        <div class="product-content">
+          <h3 class="title"><a href="#">Ring</a></h3>
+          <span class="price fa fa-rupee">10000 </span>
+          <ul class="rating">
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <div class="product-grid">
+        <div class="product-image">
+          <a href="#">
+            <img class="pic-1" [src]="collection3" />
+            <img class="pic-2" [src]="collection3" />
+          </a>
+          <ul class="social">
+            <li>
+              <a href="#"><i class="fa fa-heart"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-shopping-cart"></i></a>
+            </li>
+          </ul>
+          <span class="product-new-label">New</span>
+        </div>
+        <div class="product-content">
+          <h3 class="title"><a href="#">Pendants</a></h3>
+          <span class="price fa fa-rupee">16200 </span>
+          <ul class="rating">
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <div class="product-grid">
+        <div class="product-image">
+          <a href="#">
+            <img class="pic-1" [src]="collection4" />
+            <img class="pic-2" [src]="collection4" />
+          </a>
+          <ul class="social">
+            <li>
+              <a href="#"><i class="fa fa-heart"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-shopping-cart"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="product-content">
+          <h3 class="title"><a href="#">Bangles</a></h3>
+          <span class="price fa fa-rupee">10000 </span>
+          <ul class="rating">
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+          </ul>
+          <span class="product-new-label">New</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container" style="padding-top:5%;">
+  <div class="row">
+    <div class="col-md-3 col-sm-6">
+      <div class="product-grid">
+        <div class="product-image">
+          <a href="#">
+            <img class="pic-1" [src]="collection5" />
+            <img class="pic-2" [src]="collection5" />
+          </a>
+          <ul class="social">
+            <li>
+              <a href="#"><i class="fa fa-heart"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-shopping-cart"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="product-content">
+          <h3 class="title"><a href="#">Bracelet</a></h3>
+          <div class="price fa fa-rupee">
+            12500
+            <!-- <span class="fa fa-rupee">&nbsp;75.00</span> -->
+          </div>
+          <ul class="rating">
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star disable"></li>
+            <li class="fa fa-star disable"></li>
+          </ul>
+          <span class="product-new-label">New</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <div class="product-grid">
+        <div class="product-image">
+          <a href="#">
+            <img class="pic-1" [src]="collection6" />
+            <img class="pic-2" [src]="collection6" />
+          </a>
+          <ul class="social">
+            <li>
+              <a href="#"><i class="fa fa-heart"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-shopping-cart"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="product-content">
+          <h3 class="title"><a href="#">Cuffs Earrings</a></h3>
+          <span class="price fa fa-rupee">9000 </span>
+          <ul class="rating">
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+          </ul>
+          <span class="product-new-label">New</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <div class="product-grid">
+        <div class="product-image">
+          <a href="#">
+            <img class="pic-1" [src]="collection7" />
+            <img class="pic-2" [src]="collection7" />
+          </a>
+          <ul class="social">
+            <li>
+              <a href="#"><i class="fa fa-heart"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-shopping-cart"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="product-content">
+          <h3 class="title"><a href="#">Earring</a></h3>
+          <span class="price fa fa-rupee">16200 </span>
+          <ul class="rating">
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <div class="product-grid">
+        <div class="product-image">
+          <a href="#">
+            <img class="pic-1" [src]="collection8" />
+            <img class="pic-2" [src]="collection8" />
+          </a>
+          <ul class="social">
+            <li>
+              <a href="#"><i class="fa fa-heart"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-shopping-cart"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="product-content">
+          <h3 class="title"><a href="#">Necklaces </a></h3>
+          <span class="price fa fa-rupee">10000 </span>
+          <ul class="rating">
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container" style="padding-top:5%;">
+  <div class="row">
+    <div class="col-md-3 col-sm-6">
+      <div class="product-grid">
+        <div class="product-image">
+          <a href="#">
+            <img class="pic-1" [src]="collection9" />
+            <img class="pic-2" [src]="collection9" />
+          </a>
+          <ul class="social">
+            <li>
+              <a href="#"><i class="fa fa-heart"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-shopping-cart"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="product-content">
+          <h3 class="title"><a href="#">Nath</a></h3>
+          <div class="price fa fa-rupee">
+            12500
+            <!-- <span class="fa fa-rupee">&nbsp;75.00</span> -->
+          </div>
+          <ul class="rating">
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star disable"></li>
+            <li class="fa fa-star disable"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <div class="product-grid">
+        <div class="product-image">
+          <a href="#">
+            <img class="pic-1" [src]="collection10" />
+            <img class="pic-2" [src]="collection10" />
+          </a>
+          <ul class="social">
+            <li>
+              <a href="#"><i class="fa fa-heart"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-shopping-cart"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="product-content">
+          <h3 class="title"><a href="#">Pendant</a></h3>
+          <span class="price fa fa-rupee">9000 </span>
+          <ul class="rating">
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+            <li class="fa fa-star"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>
